@@ -1,0 +1,38 @@
+main {
+    background-color: #ffffff;
+    color: var(--color-text);
+    text-align: center;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 800px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+}
+
+main h1 {
+    font-size: 2rem;
+    color: var(--color-primary);
+    margin-bottom: 1rem;
+}
+
+main p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin: 0.5rem 0;
+    color: var(--color-text);
+}
+
+main p a {
+    font-weight: bolder;
+    color: var(--color-link);
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+main p a:hover {
+    color: var(--color-link-hover);
+    text-decoration: underline;
+}
+
+main p span {
+    color: var(--color-success);
+}

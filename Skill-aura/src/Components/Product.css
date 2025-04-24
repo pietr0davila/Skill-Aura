@@ -1,0 +1,20 @@
+div.productsSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+}
+div.productsSection h2 {
+    color: var(--color-primary);
+    margin-bottom: 20px;
+}
+div.productsSection h4 {
+    text-align: center;
+}
+div button {
+    border-radius: 15px;
+    border: none;
+    padding: 10px;
+    background-color: var(--color-success);
+}

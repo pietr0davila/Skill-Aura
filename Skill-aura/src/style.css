@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+:root {
+    --color-bg: #22303C; 
+    --color-primary: #2c6393;  
+    --color-hover: #154d7e;  
+    --color-link: #2783d4;
+    --color-link-hover: #1a6bb8; 
+    --color-error: #E74C3C; 
+    --color-success: #2ECC71;
+    --color-border: #2783d4; 
+    --color-text: #333;
+}
+
+* {
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: var(--color-text);
+}

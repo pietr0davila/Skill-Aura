@@ -1,0 +1,15 @@
+section {
+    background-color: #ffffff;
+}
+section h2, h3 {
+    text-align: center;
+    color: var(--color-primary);
+}
+
+section p {
+    text-align: center;
+}
+section p a {
+    color: var(--color-link);
+    text-decoration: none;
+}
